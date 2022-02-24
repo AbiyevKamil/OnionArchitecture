@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LEGION\\RiderProjects\\TodoAppAPI\\Web\\Web.csproj": {}
+    "C:\\Users\\LEGION\\RiderProjects\\TodoAppAPI\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LEGION\\RiderProjects\\TodoAppAPI\\Web\\Web.csproj": {
+    "C:\\Users\\LEGION\\RiderProjects\\TodoAppAPI\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LEGION\\RiderProjects\\TodoAppAPI\\Web\\Web.csproj",
-        "projectName": "Web",
-        "projectPath": "C:\\Users\\LEGION\\RiderProjects\\TodoAppAPI\\Web\\Web.csproj",
+        "projectUniqueName": "C:\\Users\\LEGION\\RiderProjects\\TodoAppAPI\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "C:\\Users\\LEGION\\RiderProjects\\TodoAppAPI\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\LEGION\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LEGION\\RiderProjects\\TodoAppAPI\\Web\\obj\\",
+        "outputPath": "C:\\Users\\LEGION\\RiderProjects\\TodoAppAPI\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LEGION\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,9 +40,25 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Swashbuckle.AspNetCore": {
+            "Microsoft.AspNetCore.Identity": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0-preview.1.22076.6, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.0-preview.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
+              "target": "Package",
+              "version": "[1.1.0, )"
             }
           },
           "imports": [
@@ -56,9 +72,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

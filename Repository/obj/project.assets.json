@@ -1896,19 +1896,6 @@
         "runtime": {
           "bin/placeholder/DataAccess.dll": {}
         }
-      },
-      "Repository/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "DataAccess": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Repository.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Repository.dll": {}
-        }
       }
     }
   },
@@ -6255,16 +6242,11 @@
       "type": "project",
       "path": "../DataAccess/DataAccess.csproj",
       "msbuildProject": "../DataAccess/DataAccess.csproj"
-    },
-    "Repository/1.0.0": {
-      "type": "project",
-      "path": "../Repository/Repository.csproj",
-      "msbuildProject": "../Repository/Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Repository >= 1.0.0"
+      "DataAccess >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6273,11 +6255,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LEGION\\RiderProjects\\TodoAppAPI\\Service\\Service.csproj",
-      "projectName": "Service",
-      "projectPath": "C:\\Users\\LEGION\\RiderProjects\\TodoAppAPI\\Service\\Service.csproj",
+      "projectUniqueName": "C:\\Users\\LEGION\\RiderProjects\\TodoAppAPI\\Repository\\Repository.csproj",
+      "projectName": "Repository",
+      "projectPath": "C:\\Users\\LEGION\\RiderProjects\\TodoAppAPI\\Repository\\Repository.csproj",
       "packagesPath": "C:\\Users\\LEGION\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LEGION\\RiderProjects\\TodoAppAPI\\Service\\obj\\",
+      "outputPath": "C:\\Users\\LEGION\\RiderProjects\\TodoAppAPI\\Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LEGION\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6294,8 +6276,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\LEGION\\RiderProjects\\TodoAppAPI\\Repository\\Repository.csproj": {
-              "projectPath": "C:\\Users\\LEGION\\RiderProjects\\TodoAppAPI\\Repository\\Repository.csproj"
+            "C:\\Users\\LEGION\\RiderProjects\\TodoAppAPI\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\LEGION\\RiderProjects\\TodoAppAPI\\DataAccess\\DataAccess.csproj"
             }
           }
         }

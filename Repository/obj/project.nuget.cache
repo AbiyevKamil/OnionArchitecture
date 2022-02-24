@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j5HQa8knXedDD9HS+x/ZNMsMCKTGoWWLDz1S7lBDZMEs0A1uXY/q27xNn6FidjI/TT6llJl4JCLOXAE4BMjFGQ==",
+  "dgSpecHash": "ipuy/jIBegDnIjItvCLhxGCR645Ye9Yi3xMr0qa3fsL/t8zvknukYN9xJ71YAxsjtVBBRR36ilWk53AHX1aLHg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LEGION\\RiderProjects\\TodoAppAPI\\Service\\Service.csproj",
+  "projectFilePath": "C:\\Users\\LEGION\\RiderProjects\\TodoAppAPI\\Repository\\Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LEGION\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\LEGION\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
